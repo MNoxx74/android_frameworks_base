@@ -7473,4 +7473,7 @@
     <!-- Biometrics fingerprint frr notification target activity component name, it shall be customized by OEMs -->
     <string translatable="false" name="config_fingerprintFrrTargetComponent"></string>
 
+    <!-- Whether to force enable multi resolution configuration for camera -->
+    <bool name="config_forceMultiResolution">false</bool>
+
 </resources>
