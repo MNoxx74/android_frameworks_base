@@ -19505,4 +19505,9 @@ public class ActivityManagerService extends IActivityManager.Stub
         }
         return token;
     }
+    
+    @Override
+    public boolean shouldForceLongScreen(String packageName) {
+        return mActivityTaskManager.shouldForceLongScreen(packageName);
+    }
 }
